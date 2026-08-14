@@ -20,19 +20,19 @@ $$\frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\p
 
 $$\mathbf{A} V^{n+1} = \mathbf{B} V^n + \mathbf{b}$$
 
----
+
 
 ##  Method Comparison & Results
 
 *Parameters: $S_0 = 100$, $K = 100$, $T = 1.0$, $r = 0.5\%$, $\sigma = 20\%$*
 
-| Pricing Method | Scheme Type | Calculated Price | Absolute Error | Accuracy Order |
+| Pricing Method | Scheme Type | Calculated Price | Absolute Error |
 | :--- | :--- | :--- | :--- | :--- |
 | **Black-Scholes** | Analytical | `$8.0163$` | Baseline | Exact |
-| **Explicit FDM** | Numerical (Explicit) | `$8.0158$` | `~0.0005` | $O(\Delta t + \Delta S^2)$ |
-| **Crank-Nicolson** | Numerical (Implicit) | `$8.0161$` | `~0.0002` | $O(\Delta t^2 + \Delta S^2)$ |
+| **Explicit FDM** | Numerical (Explicit) | `$8.0158$` | `~0.0005` | 
+| **Crank-Nicolson** | Numerical (Implicit) | `$8.0161$` | `~0.0002` |
 
----
+
 
 ##  Key Quantitative Takeaways
 
