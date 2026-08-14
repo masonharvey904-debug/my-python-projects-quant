@@ -7,7 +7,7 @@ A quantitative finance project comparing European Call option pricing using thre
 
 
 
-## ## Mathematical Background
+## Mathematical Background
 
 ### 1. Black-Scholes PDE
 The equation for the European Call option price $V(S,t)$ is:
@@ -22,7 +22,7 @@ $$\mathbf{A} V^{n+1} = \mathbf{B} V^n + \mathbf{b}$$
 
 
 
-## ## Results comparison 
+## Results comparison 
 
 **Parameters:** $S_0 = 100$, $K = 100$, $T = 1.0$, $r = 0.5\%$, $\sigma = 20\%$
 
@@ -41,5 +41,5 @@ $$\mathbf{A} V^{n+1} = \mathbf{B} V^n + \mathbf{b}$$
 * **Sub-Grid Precision:** Applied linear spatial interpolation (`np.interp`) to evaluate exact option values at non-grid spot targets ($S_0 = 100$).
 
 
-## ## How to Run
+## How to Run
 Open `option_pricing.ipynb` in Jupyter Notebook or VS Code and run all cells.
