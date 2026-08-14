@@ -7,7 +7,7 @@ A quantitative finance project comparing European Call option pricing using thre
 
 
 
-## Mathematical Background
+## How it works
 
 ### 1. Black-Scholes PDE
 The equation for the European Call option price $V(S,t)$ is:
