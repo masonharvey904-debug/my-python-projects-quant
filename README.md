@@ -24,7 +24,7 @@ $$\mathbf{A} V^{n+1} = \mathbf{B} V^n + \mathbf{b}$$
 
 ## ## Results comparison 
 
-*Parameters: $S_0 = 100$, $K = 100$, $T = 1.0$, $r = 0.5\%$, $\sigma = 20\%$*
+**Parameters:** $S_0 = 100$, $K = 100$, $T = 1.0$, $r = 0.5\%$, $\sigma = 20\%$
 
 | Pricing Method | Scheme Type | Calculated Price | Absolute Error |
 | :--- | :--- | :--- | :--- |
